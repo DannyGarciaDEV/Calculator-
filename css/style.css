@@ -1,0 +1,80 @@
+*{
+box-sizing: border-box;
+}
+
+
+
+
+
+body{
+display: flex;
+align-content: center;
+background-color: rgb(17, 126, 190);
+}
+
+
+
+.calculor{
+    border: 2px solid rgb(227, 227, 238);
+    flex-direction: row; 
+display: flex;
+height: 244px;
+
+width: 30%;
+flex-direction: column;
+background-color: rgb(155, 180, 196);
+color: rgb(3 24 107);
+    margin: 0% 0% 0% 33%;
+    align-items: center;
+    border: 2px dashed skyblue;
+}
+
+
+
+
+.num1 {
+    border: 1px solid;
+    width: 52%;
+    margin: 0% 0% 1% 16%;
+}
+
+.num2 {
+    border: 1px solid;
+    width: 52%;
+    margin: 0% 0% 1% 16%;}
+
+    .buttons {
+        flex-direction: row;
+        margin: 0% 0% 0% -10%;
+        
+    }
+
+    h1 {
+        color: crimson;
+    margin: 7% 1% 1% -8%;
+    font-family: sans-serif;
+    font-size: 18px;
+
+}
+    
+
+#add{ background-color: rgb(93, 225, 93);}
+
+#sub{ background-color: rgb(232, 74, 74);}
+
+#mult {
+    background-color: rgb(64, 97, 168);
+}
+
+#divide {
+    background-color: yellow;
+}
+
+section .first{
+    display: flex;
+    margin:0% 0% 0% 0%;
+}
+
+h3{
+    margin: 1% 7% 0% 0%;
+}
